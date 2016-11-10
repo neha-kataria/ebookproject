@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Nov, 2016, 3:00:35 PM
+    Author     : neha
+*/
+
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #383838;
+  background: #3b3b3b url(../images/body.png);
+   background-repeat: repeat;  
+}
+.shell { width: 884px; margin: 0 auto; background: url(../images/shell.png) repeat-y 0 0; 
+        padding: 0 57px 0 57px; position: relative; }
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }

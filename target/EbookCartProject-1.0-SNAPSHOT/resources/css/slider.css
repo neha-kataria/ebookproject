@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Nov, 2016, 4:21:41 PM
+    Author     : neha
+*/
+#slider { background: url(../images/slider-bg.png) repeat-x 0 0; height: 364px; position: relative; z-index: 10; }
+#slider .jcarousel-container { background: url(../images/slider.png) no-repeat 0 0; height: 364px; width: 857px; height: 308px; padding: 36px 14px 20px 13px; }
+#slider .jcarousel-clip { width: 857px; height: 308px; overflow: hidden; }
+#slider .jcarousel-item { width: 857px; height: 308px; }
+#slider .jcarousel-prev, 
+#slider .jcarousel-next { position: absolute; top: 155px; width: 28px; height: 47px; background: url(../images/slider-directions.png) no-repeat 0 0; }
+#slider .jcarousel-prev { left: -40px; }
+#slider .jcarousel-next { right: -40px; background-position: right 0; cursor: pointer; }
+#slider .nav { position: absolute; bottom: -7px; left: 459px; width: 80px; height: 14px; z-index: 100; }
+#slider .nav a { width: 14px; height: 14px; font-size: 0; line-height: 0; text-indent: -4000px; background: url(../images/slider-nav.png) no-repeat 0 0; margin: 0 3px 0 0; float: left; display: inline; margin: 0 3px; }
+#slider .nav a.active { background-position: right 0; }
+
+#navigation { float: right; display: inline; font-family: 'Georgia', Arial, serif; font-size: 14px; line-height: 20px; padding: 24px 4px 23px 0; }
+#navigation ul li { list-style: none; padding-left: 33px; float: left; display: inline; }
+#navigation ul li a { color: #383838; }
+#navigation ul li a.active { font-style: italic; font-weight: bold; text-decoration: none; cursor: default; }
+
+
+#slider .image { float: left; display: inline; width: 356px; }
+#slider .details { float: right; display: inline; width: 368px; padding: 4px 50px 0 0; }
+#slider .details h3 { padding-bottom: 15px; position: relative; width: 100%; margin: -7px 0 0; }
+#slider .details .title { font-size: 16px; line-height: 22px; font-family: 'Georgia', Arial, serif; padding-bottom: 14px; }
+#slider .details .description { font-size: 12px; line-height: 18px; padding-bottom: 19px; }
+#slider .read-more-btn { display: block; width: 110px; height: 48px; line-height: 48px; background: url(../images/slider-btn.png); padding: 0 10px 0 59px; color: #fff; font-size: 18px; font-family: 'Georgia', Arial, serif; font-style: italic; font-weight: bold; margin-left: 3px; }
+#slider .read-more-btn:hover { color: #0f173a; text-decoration: none; }
+
+#best-sellers { padding-top: 18px; width: 100%; position: relative; }
+#best-sellers h3 { color: #404040; margin-bottom: 0; }
+#best-sellers .jcarousel-container { width: 560px; height: 210px; padding: 0 26px 0 53px; margin-top: 31px; }
+#best-sellers .jcarousel-clip { width: 560px; height: 210px; overflow: hidden; }
+#best-sellers .jcarousel-item { width: 125px; height: 210px; text-align: center; float: left; display: inline; margin-right: 15px; }
+#best-sellers .jcarousel-prev,
+#best-sellers .jcarousel-next { width: 20px; height: 33px; background: url(../images/best-sellers-directions.png) no-repeat; position: absolute; top: 57px; cursor: pointer; }
+#best-sellers .jcarousel-prev { background-position: 0 0; left: 2px; }
+#best-sellers .jcarousel-prev:hover { background-position: 0 bottom; }
+#best-sellers .jcarousel-next { background-position: right 0; right: 2px; }
+#best-sellers .jcarousel-next:hover { background-position: right bottom; }
+#best-sellers a { position: relative; display: block; height: 100%; width: 102px; }
+#best-sellers a:hover { text-decoration: none; opacity: 0.7;}
+#best-sellers a img { width: 102px; height: 156px; display: block; padding-bottom: 10px; }
+#best-sellers .price { position: absolute; top: 107px; right: -26px; width: 62px; height: 62px; background: url(../images/best-price.png); font-size: 22px; font-weight: bold; line-height: 62px; text-align: center; color: #fff; display: block; }
+#best-sellers .price .low { font-size: 14px; vertical-align: baseline; }
+#best-sellers .price .high { font-size: 11px; line-height: 14px; vertical-align: super;}
+#best-sellers .product .author { color: #3d3d3d; }
+
