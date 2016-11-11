@@ -16,7 +16,7 @@
     <body>
         <div id="header" class="shell">
 
-            <div id="site_logo" ><h1>ebookCart</h1></div>
+            <div id="site_logo" ><h1><a href="/EbookCart/">ebookCart</a></h1></div>
             <!--<div><br><br>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pick your ebook today!</span></div>-->
             <div id="navigation">

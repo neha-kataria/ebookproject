@@ -28,7 +28,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"> <span>ebookcart</span></a>
+              <a href="/EbookCart/" class="site_title"> <span>ebookcart</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -56,31 +56,28 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li>
-                      <a>
+                      <a >
                           <i class="fa fa-home"></i>
                           Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
+                      <li><a href="/EbookCart/admin">Dashboard</a></li>
+                    
                     </ul>
                   </li>
                   <li>
-                      <a><i class="fa fa-edit"></i> Add Category <span class="fa fa-chevron-down"></span></a>
+                      <a><i class="fa fa-edit"></i>Category <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">General Form</a></li>
-                      <li><a href="form_advanced.html">Advanced Components</a></li>
-                      <li><a href="form_validation.html">Form Validation</a></li>
-                      <li><a href="form_wizards.html">Form Wizard</a></li>
-                      <li><a href="form_upload.html">Form Upload</a></li>
-                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                      <li><a href="/EbookCart/addCategory">Add Category</a></li>
+                      <li><a href="showCategoryPage.jsp">Show Category</a></li>
+                      <li><a href="editCategoryPage.html">Edit Category</a></li>
+                      
                     </ul>
                   </li>
                  
                   <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tables.html">Tables</a></li>
-                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                      <li><a href="tables.html">Registered Users Table</a></li>
+                      <li><a href="tables_dynamic.html">Product Table</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
@@ -134,7 +131,8 @@
                         </li>
                     </ul>
                   </li>                  
-                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i>
+                          Offers Page <span class="label label-success pull-right">Coming Soon</span></a></li>
                 </ul>
               </div>
 
@@ -156,7 +154,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="resources/images/user.png" alt="">Admin
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -172,71 +170,7 @@
                   </ul>
                 </li>
 
-                <li role="presentation" class="dropdown">
-                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
-                  </a>
-                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="text-center">
-                        <a>
-                          <strong>See All Alerts</strong>
-                          <i class="fa fa-angle-right"></i>
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+       
             </nav>
           </div>
         </div>
@@ -246,12 +180,12 @@
         <div class="right_col" role="main">
           <div class="">
             <div class="page-title">
-                <br>
+                 <br>
                   <div style="float: left; display: inline; font-family: 'Georgia', Arial, serif; font-size: 16px; line-height: 20px; margin-left: auto; margin-top: auto;">
-            <ul style="list-style: none; padding-left: 33px; float: left; display: inline;">
-                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="#" class="active">Category</a></li>
-                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="/EbookCart/addSubCategory">Sub-Category</a></li>
-                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="#">Product</a></li>
+            <ul style="list-style: none; padding-left: 33px; float: left; display: inline; ">
+                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="/EbookCart/addCategory" class="active" >Category</a></li>
+                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="/EbookCart/addSubCategory" >Sub-Category</a></li>
+                <li style="list-style: none; padding-left: 33px; float: left; display: inline;"><a href="#" style="font-weight: bold;text-decoration: underline">Product</a></li>
 
                    
                 </ul>
@@ -298,32 +232,65 @@
                   </div>
                   <div class="x_content">
                     <br />
-                    <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <form id="product-form" name="productForm" action="submitProductForm" method="POST" data-parsley-validate class="form-horizontal form-label-left">
 <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Category Name <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="product-name">Product Name <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="product-name" name="productName" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Parent Category <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="parent-name">Parent Category <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="parent-name" name="parentName" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                          <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Short Description <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="subcategory-name">Sub- Category 
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="subcategory-name" name="subcategoryName"  class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                         <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="total-quantity">Total Quantity
+                            <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="total-quantity" name="totalQuant" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                        
+                         <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="avail-quantity">Available Quantity 
+                            <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="avail-quantity" name="availQuant" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                         <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="price">Price 
+                            <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="price" name="price" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                        
+                         <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="shortDesc">Short Description <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="shortDesc" name="shortDesc" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Show Category Title</label>
+                        <label for="show-title" class="control-label col-md-3 col-sm-3 col-xs-12">Show Category Title</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <select id="show-title" name="show_title" class="form-control">
+                            <select id="show-title" name="showTitle" class="form-control">
   
             <option value="1" selected="selected">Show</option>
                 <option value="0">Hide</option>
@@ -347,7 +314,7 @@
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                          <button type="submit" class="btn btn-primary">Cancel</button>
+                            <button type="reset" class="btn btn-primary">Cancel</button>
                           <button type="submit" class="btn btn-success">Submit</button>
                         </div>
                       </div>
@@ -473,7 +440,7 @@
         <!-- /page content -->
 
         <!-- footer content -->
-        <footer>
+  <!--      <footer>
           <div class="pull-right">
             ebookcart - Bootstrap Admin Template 
           </div>
