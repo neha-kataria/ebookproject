@@ -18,6 +18,36 @@
 
         <!-- Custom Theme Style -->
         <link href="resources/css/custom.min.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script type="text/javascript">
+$(function () {
+$("#thumbUpload").change(function () {
+$("#spnName").html($("#thumbUpload").val().substring($("#thumbUpload").val().lastIndexOf('\\') + 1));
+
+var filename=$("#spnName").html($("#thumbUpload").val().substring($("#thumbUpload").val().IndexOf('\\') + 1));
+alert(filename);
+});
+});
+</script>
+
+<script type="text/javascript">
+                                   function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#preview')
+                    .attr('src', e.target.result)
+                    .width(150)
+                    .height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }    
+                                   </script>
+                               
         <title>JSP Page</title>
     </head>
     <body class="nav-md">
@@ -164,7 +194,7 @@
                                             </a>
                                         </li>
                                         <li><a href="javascript:;">Help</a></li>
-                                        <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                        <li><a href="/EbookCart/"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                                     </ul>
                                 </li>
 
@@ -230,7 +260,7 @@
                                 </div>
                                 <div class="x_content">
                                     <br />
-                                    <form id="category-form" name="categoryForm" action="submitCategoryForm" method="POST" data-parsley-validate class="form-horizontal form-label-left">
+                                    <form id="category-form" name="categoryForm" action="submitCategoryForm" method="POST" enctype="multipart/form-data"  data-parsley-validate class="form-horizontal form-label-left">
 
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="category-name">Category Name
@@ -253,8 +283,8 @@
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <select id="show-title" name="showTitle" class="form-control">
 
-                                                    <option value="1" selected="selected">Show</option>
-                                                    <option value="0">Hide</option>
+                                                    <option value="show" selected="selected">Show</option>
+                                                    <option value="hide">Hide</option>
                                                 </select>
 
                                             </div>
@@ -264,16 +294,28 @@
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Category Icon 
                                                 <span class="required">*</span>
                                             </label> <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                                            <div class="bs-glyphicons">
-                                                <ul class="bs-glyphicons-list">
-                                                    <li>
-                                                        <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
-                                                        <span class="glyphicon-class">glyphicon glyphicon-camera</span>
+                                            <div class="bs-glyphicons" >
+                                                <ul class="bs-glyphicons-list" >
+                                                    <li ><input type="file" name="thumbUpload" id="thumbUpload" style="display: none" onchange="readURL(this);">
+                                                        <div onclick='$("#thumbUpload").click()' >
+                                                            <span class="glyphicon glyphicon-camera" aria-hidden="true"  ></span>
+                                                            <span class="glyphicon-class" ><br>  Click to <br> upload</span>
+                                                        </div>
+                                                       
                                                     </li>
+                                                    
                                                 </ul>
+                                                <div style="margin-left: 20%">  <span id="spnName"></span> </div>
+                                                <img id="preview" src="#" alt="your image" style="margin-left: 20%" />
                                             </div>
+                                            
                                         </div>
-
+                                   <!--     <input style="display:none" type="file" id="fileupload1" />
+<input type="button"  id="btnUpload" onclick='$("#fileupload1").click()' value="Upload"/>
+                                        
+                                       
+                                    <input type='file' onchange="readURL(this);" />
+    <img id="blah" src="#" alt="your image" /> -->
                                 </div>
 
                             </div>

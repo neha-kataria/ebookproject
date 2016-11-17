@@ -18,7 +18,26 @@ public class CategoryBean {
     String parentName;
     String showTitle;
     //MultipartStream thumb;
-    MultipartFile thumb;
+    MultipartFile thumbUpload;
+    String path;
+    int c_id;
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public int getC_id() {
+        return c_id;
+    }
+
+    public void setC_id(int c_id) {
+        this.c_id = c_id;
+    }
+    
 
     public String getCategoryName() {
         return categoryName;
@@ -44,12 +63,12 @@ public class CategoryBean {
         this.showTitle = showTitle;
     }
 
-    public MultipartFile getThumb() {
-        return thumb;
+    public MultipartFile getThumbUpload() {
+        return thumbUpload;
     }
 
-    public void setThumb(MultipartFile thumb) {
-        this.thumb = thumb;
+    public void setThumbUpload(MultipartFile thumb) {
+        this.thumbUpload = thumbUpload;
     }
 
 }
