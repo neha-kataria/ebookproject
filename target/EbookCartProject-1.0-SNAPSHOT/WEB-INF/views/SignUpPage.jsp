@@ -38,10 +38,10 @@
                     <input id="contact" type="text" placeholder="contact" name="contact" />
                     <label for="contact" class="entypo-phone"></label>
                 </div>
-                <div class="txt">
+         <!--       <div class="txt">
                     <input id="age" type="text" placeholder="age" name="age" />
                     <label for="age" class="entypo-calendar"></label>
-                </div>
+                </div>  -->
             <!--    <div class="txt">
                     <select id="secret_questn" style="width: 100%; height: 50px" >
                         <option>--Select your secret question--</option>

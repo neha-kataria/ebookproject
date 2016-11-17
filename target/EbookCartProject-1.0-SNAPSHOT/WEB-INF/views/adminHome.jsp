@@ -34,7 +34,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border:0;">
-              <a href="index.html" class="site_title"> <span>ebookcart</span></a>
+              <a href="/EbookCart/" class="site_title"> <span>ebookcart</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -61,18 +61,18 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li>
-                      <a>
+                      <a >
                           <i class="fa fa-home"></i>
                           Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Dashboard</a></li>
+                      <li><a href="/EbookCart/admin">Dashboard</a></li>
                     
                     </ul>
                   </li>
                   <li>
                       <a><i class="fa fa-edit"></i>Category <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="addCategoryPage.jsp">Add Category</a></li>
+                      <li><a href="/EbookCart/addCategory">Add Category</a></li>
                       <li><a href="showCategoryPage.jsp">Show Category</a></li>
                       <li><a href="editCategoryPage.html">Edit Category</a></li>
                       
@@ -176,7 +176,7 @@
                   </ul>
                 </li>
 
-                <li role="presentation" class="dropdown">
+        <!--        <li role="presentation" class="dropdown">
                   <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-envelope-o"></i>
                     <span class="badge bg-green">6</span>
@@ -240,7 +240,7 @@
                     </li>
                   </ul>
                 </li>
-              </ul>
+              </ul> -->
             </nav>
           </div>
         </div>

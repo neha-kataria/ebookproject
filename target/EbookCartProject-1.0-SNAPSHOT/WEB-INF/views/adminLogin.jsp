@@ -38,9 +38,9 @@
   </div>
   <div class="buttons">
     <input type="submit" value="Login" />
-    <span>
+  <!--  <span>
       <a href="/EbookCart/register" class="entypo-user-add register">Register</a>
-    </span>
+    </span> -->
   </div>
       </form>
   <!--<div class="hr">
